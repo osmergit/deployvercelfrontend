@@ -1,0 +1,21 @@
+Aplicaciones utilizados
+
+Node JS
+https://nodejs.org/en/
+
+
+Docker
+https://www.docker.com/
+
+Registrar
+https://hub.docker.com/signup
+
+Git
+https://git-scm.com/download/win
+
+GitHub
+https://desktop.github.com/
+
+Registrar 
+https://github.com/
+

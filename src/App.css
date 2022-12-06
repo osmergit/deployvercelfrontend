@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #3cea300b;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-form, .contenedor {
+  width: 300px;
+  margin: 0 auto;
+}
+.login-form h3 {
+  text-align: center;
+  color:midnightblue ;
+  font-size: 28px;
+  padding: 70px 0 10px 0;
+}
+.login-form input[type="password"],
+.login-form input[type="email"],
+.login-form input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ced4da;
+  margin-bottom: 10px;
+  box-sizing:border-box;
+}
+
+/* Estilos boton REGISTER*/
+.btn-register{
+  width: 100%;
+  padding: 15px;
+  background-color: #d37334;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  color: #ffffff;
+  margin-top: 20px;
+  /* Para dar la apariencia de un boton */
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;  
+}
+.btn-register:hover,.btn-register:active{
+  color:#fff;
+  background-color: #6062493d;
+  border-color:#b910ae
+;
+}
+section {
+  color: rgb(175, 225, 24);
+
+  background-color: #c9970b3d;
+  font-weight: normal;
+  height: 200vh;
+}
+.navBg {
+  background-color: #CD5C5C;
+  font-weight: lighter;
+  font-size: large;
+  color:#e90d74b0;
+}
+
+
